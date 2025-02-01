@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "1ebda16e-d6ec-4737-8f50-c017548b3d46")
 	(paper "A4")
+	(title_block
+		(title "GraFIX - pixel glitch eliminator for Elwro 800 Junior")
+		(company "Przemysław Węgrzyn <pwegrzyn@codepainters.com>")
+	)
 	(lib_symbols
 		(symbol "74xx:74LS153"
 			(pin_names
@@ -1807,7 +1811,7 @@
 		(uuid "39f79128-9fc0-472c-945c-7f2600908d42")
 	)
 	(junction
-		(at 38.1 119.38)
+		(at 50.8 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b1d0291-cd35-4270-a782-4e873ed360ce")
@@ -1831,7 +1835,7 @@
 		(uuid "52412f33-7395-479b-811c-d3a07eba759e")
 	)
 	(junction
-		(at 30.48 119.38)
+		(at 43.18 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "540e1e79-b2f8-4468-b190-f5b66be3de0a")
@@ -1873,13 +1877,13 @@
 		(uuid "86c8c830-1ef3-4b49-b370-8de6c4d5a5e6")
 	)
 	(junction
-		(at 38.1 127)
+		(at 50.8 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95f02a9e-4ca6-40ce-881a-edab280efd1b")
 	)
 	(junction
-		(at 30.48 127)
+		(at 43.18 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b586c04a-cf58-4c0f-a949-d36cc5382c7d")
@@ -1902,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 119.38) (xy 30.48 119.38)
+			(xy 50.8 127) (xy 43.18 127)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 119.38) (xy 24.13 119.38)
+			(xy 43.18 127) (xy 36.83 127)
 		)
 		(stroke
 			(width 0)
@@ -2382,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 128.27) (xy 24.13 127)
+			(xy 36.83 135.89) (xy 36.83 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2462,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 127) (xy 45.72 127)
+			(xy 50.8 134.62) (xy 58.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2532,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 38.1 119.38)
+			(xy 58.42 127) (xy 50.8 127)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 127) (xy 30.48 127)
+			(xy 36.83 134.62) (xy 43.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3012,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 127) (xy 38.1 127)
+			(xy 43.18 134.62) (xy 50.8 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3022,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 119.38) (xy 24.13 118.11)
+			(xy 36.83 127) (xy 36.83 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3042,7 +3046,6 @@
 	)
 	(label "AB"
 		(at 88.9 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,7 +3056,6 @@
 	)
 	(label "s_g"
 		(at 129.54 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3064,7 +3066,6 @@
 	)
 	(label "BR"
 		(at 54.61 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3075,7 +3076,6 @@
 	)
 	(label "s_r"
 		(at 129.54 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3086,7 +3086,6 @@
 	)
 	(label "S0"
 		(at 54.61 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3097,7 +3096,6 @@
 	)
 	(label "s_g"
 		(at 165.1 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3108,7 +3106,6 @@
 	)
 	(label "PB"
 		(at 31.75 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3119,7 +3116,6 @@
 	)
 	(label "r_r"
 		(at 199.39 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3130,7 +3126,6 @@
 	)
 	(label "s_b"
 		(at 129.54 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3141,7 +3136,6 @@
 	)
 	(label "r_b"
 		(at 199.39 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3152,7 +3146,6 @@
 	)
 	(label "s_bri"
 		(at 165.1 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3163,7 +3156,6 @@
 	)
 	(label "r_b"
 		(at 31.75 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3174,7 +3166,6 @@
 	)
 	(label "r_g"
 		(at 199.39 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3185,7 +3176,6 @@
 	)
 	(label "s_b"
 		(at 165.1 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3196,7 +3186,6 @@
 	)
 	(label "AG"
 		(at 88.9 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3207,7 +3196,6 @@
 	)
 	(label "r_r"
 		(at 53.34 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3218,7 +3206,6 @@
 	)
 	(label "~{blnk}"
 		(at 31.75 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3229,7 +3216,6 @@
 	)
 	(label "BRI"
 		(at 54.61 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3240,7 +3226,6 @@
 	)
 	(label "BB"
 		(at 31.75 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3251,7 +3236,6 @@
 	)
 	(label "PG"
 		(at 88.9 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3262,7 +3246,6 @@
 	)
 	(label "s_r"
 		(at 165.1 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3273,7 +3256,6 @@
 	)
 	(label "S0"
 		(at 88.9 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3284,7 +3266,6 @@
 	)
 	(label "PG"
 		(at 31.75 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3295,7 +3276,6 @@
 	)
 	(label "AB"
 		(at 31.75 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3306,7 +3286,6 @@
 	)
 	(label "BG"
 		(at 31.75 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3317,7 +3296,6 @@
 	)
 	(label "S0"
 		(at 54.61 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3328,7 +3306,6 @@
 	)
 	(label "PR"
 		(at 88.9 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3339,7 +3316,6 @@
 	)
 	(label "AR"
 		(at 54.61 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3350,7 +3326,6 @@
 	)
 	(label "S1"
 		(at 31.75 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3361,7 +3336,6 @@
 	)
 	(label "BB"
 		(at 88.9 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3372,7 +3346,6 @@
 	)
 	(label "~{blnk}"
 		(at 31.75 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3383,7 +3356,6 @@
 	)
 	(label "S1"
 		(at 88.9 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3394,7 +3366,6 @@
 	)
 	(label "S1"
 		(at 88.9 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3405,7 +3376,6 @@
 	)
 	(label "r_g"
 		(at 31.75 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3416,7 +3386,6 @@
 	)
 	(label "PR"
 		(at 54.61 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3427,7 +3396,6 @@
 	)
 	(label "AR"
 		(at 88.9 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3438,7 +3406,6 @@
 	)
 	(label "r_bri"
 		(at 199.39 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3449,7 +3416,6 @@
 	)
 	(label "BRI"
 		(at 88.9 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3460,7 +3426,6 @@
 	)
 	(label "PB"
 		(at 88.9 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3471,7 +3436,6 @@
 	)
 	(label "s_bri"
 		(at 129.54 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3482,7 +3446,6 @@
 	)
 	(label "~{blnk}"
 		(at 53.34 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3493,7 +3456,6 @@
 	)
 	(label "BG"
 		(at 88.9 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3504,7 +3466,6 @@
 	)
 	(label "~{blnk}"
 		(at 53.34 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3515,7 +3476,6 @@
 	)
 	(label "S0"
 		(at 88.9 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3526,7 +3486,6 @@
 	)
 	(label "~{blnk}"
 		(at 88.9 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +3496,6 @@
 	)
 	(label "r_bri"
 		(at 53.34 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3548,7 +3506,6 @@
 	)
 	(label "BR"
 		(at 88.9 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3559,7 +3516,6 @@
 	)
 	(label "AG"
 		(at 31.75 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3570,7 +3526,6 @@
 	)
 	(label "S1"
 		(at 31.75 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3844,7 +3799,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 45.72 123.19 0)
+		(at 58.42 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3852,7 +3807,7 @@
 		(dnp no)
 		(uuid "3d8edde6-1907-4f8b-9945-aeabe0013f65")
 		(property "Reference" "C3"
-			(at 44.196 113.538 0)
+			(at 56.896 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +3816,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 44.196 116.078 0)
+			(at 56.896 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3825,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 46.6852 127 0)
+			(at 59.3852 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 123.19 0)
+			(at 58.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3843,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 45.72 123.19 0)
+			(at 58.42 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 24.13 118.11 0)
+		(at 36.83 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4163,7 +4118,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b13e922-5042-4f94-bcf7-e89d01a5788c")
 		(property "Reference" "#PWR014"
-			(at 24.13 121.92 0)
+			(at 36.83 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,7 +4127,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 24.13 113.03 0)
+			(at 36.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 118.11 0)
+			(at 36.83 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 118.11 0)
+			(at 36.83 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 24.13 118.11 0)
+			(at 36.83 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,7 +4465,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.48 123.19 0)
+		(at 43.18 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4518,7 +4473,7 @@
 		(dnp no)
 		(uuid "ad188bd8-9ca6-4f5e-b952-039e9712510d")
 		(property "Reference" "C1"
-			(at 28.956 113.538 0)
+			(at 41.656 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4482,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 28.956 116.078 0)
+			(at 41.656 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4491,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 31.4452 127 0)
+			(at 44.1452 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +4500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 123.19 0)
+			(at 43.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4509,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 30.48 123.19 0)
+			(at 43.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 123.19 0)
+		(at 50.8 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4651,7 +4606,7 @@
 		(dnp no)
 		(uuid "c183624f-e8e7-4973-9219-06da90b3d6b5")
 		(property "Reference" "C2"
-			(at 36.576 113.538 0)
+			(at 49.276 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4615,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 36.576 116.078 0)
+			(at 49.276 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4624,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 39.0652 127 0)
+			(at 51.7652 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 123.19 0)
+			(at 50.8 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4642,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 38.1 123.19 0)
+			(at 50.8 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4865,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 128.27 0)
+		(at 36.83 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4918,7 +4873,7 @@
 		(dnp no)
 		(uuid "e02eb69a-6568-4886-8804-795b0658222d")
 		(property "Reference" "#PWR013"
-			(at 24.13 134.62 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +4882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 132.334 0)
+			(at 36.83 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +4890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 128.27 0)
+			(at 36.83 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +4899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 128.27 0)
+			(at 36.83 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +4908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 128.27 0)
+			(at 36.83 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
