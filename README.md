@@ -35,7 +35,7 @@ When soldering the PCB, follow this order: pin headers under `U2`, then `U2` its
 
 ![](img/pcb_bottom.png)
 
-Then you have to unsolder `74LS153` multiplexers and replace them with `DIL-16` sockets. The last step is to connect `J3` header on the `GraFIX` board to `CKPIX` signal on the Junior PCB with a short piece of wire. The best place to do it is a via close to `R38`, marked with red `X`.
+Then you have to unsolder `74LS153` multiplexers and replace them with `DIL-16` sockets, now you can insert `GraFIX` PCB into the sockets. The last step is to connect `J3` header on the `GraFIX` board to `CKPIX` signal on the Junior PCB with a short piece of wire. The best place to do it is a via close to `R38`, marked with red `X`. That's it!
 
 ![](img/junior_pcb1.png)
 
